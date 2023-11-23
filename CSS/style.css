@@ -1,0 +1,296 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e9f7f7;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+nav img{
+    margin-left: 10px;
+    padding: 35px;
+}
+.menu1 ul{
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #015779;
+    border-radius: 8px;
+    width: 500px;
+    height: 5vh;
+
+}
+.menu1 ul li a{
+    color: #fff;
+}
+.menu2 ul{
+    margin-right: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.menu2 ul li a{
+    color: #015779;
+}
+a{
+    margin: 10px;
+    text-decoration: none;
+    display:block;
+    min-width: 80px;
+    text-align: center;
+}
+.body-accueil{
+    background-color: #e9f7f7;
+    display: flex;
+    justify-content: space-around;
+}
+.text{
+    padding: 20px;
+    margin-left: 4Opx;
+}
+.image img{
+    padding: 20px;
+    margin-right: 40px;
+}
+.buttonaccueil ul{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.buttonaccueil ul li a{
+    padding: 20px;
+    margin: 40px;
+    border-radius: 8px;
+    width: 200px;
+}
+#buttobcommencer{
+    background-color: #015779;
+    color: #fff;
+    font-size: 20px;
+}
+#buttobcommencer i{
+    font-size: 15px;
+    margin: 10px;
+}
+#buttonreseau{
+    color: #015779;
+    font-size: 20px;
+    border-color: #015779;
+    border: 2px solid #015779;
+}
+#buttonreseau i{
+    margin: 5px;
+}
+#apropos{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #015779;
+}
+.apropos{
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+}
+.apropos h1{
+    font-size: 70px;
+}
+.textabout{
+    width: 50%;
+    margin-left: 25%;
+}
+.textbodyabout{
+    padding: 50px;
+    width: 65%;
+    margin-left: 13%;
+    text-align: justify;
+}
+#partenaire{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9f7f7;
+}
+.trait hr{
+    width: 20%;
+    margin-left: 40%;
+    padding: 5px;
+    background-color: #015779;
+    border-radius: 8px;
+}
+.partenaire{
+    margin: 110px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c5f0f0;
+    border-radius: 8px;
+}
+.partenaire i{
+    color: #015779;
+    font-size: 30px;
+}
+.logospartenaire{
+    width: 800px;
+    padding: 100px;
+    margin: 10px;
+}
+#partenaire h1{
+    text-align: center;
+    font-size: 60px;
+    color: #015779;
+}
+.logospartenaire img{
+    padding: 10px;
+    margin: 15px;
+}
+#temoignage{
+    font-family: Arial, sans-serif;
+}
+#temoignage h1{
+    text-align: center;
+    font-size: 60px;
+    color: #015779;
+}
+.temoignages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.temoignages i{
+    color: #015779;
+    font-size: 30px;
+}
+.testimonial {
+    border: 2px solid #015779;
+    padding: 20px;
+    margin: 40px;
+    width: 20%;
+    text-align: center;
+    border-radius: 8px;
+}
+.testimonial img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+.messageclient{
+    text-align: justify;
+}
+#contact{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 130vh;
+    background-color: #e9f7f7;
+}
+#contact h1{
+    text-align: center;
+    font-size: 60px;
+    color: #015779;
+}
+.contactparba{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    width: 900px;
+    padding: 50px;
+    background-color: #015779;
+}
+.contact label{
+    display: block;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 10%;
+}
+.contact input, textarea{
+    width: 75%;
+    padding: 15px;
+    border-radius: 8px;
+    margin-left: 10%;
+}
+.contact button{
+    background-color: #4caf50;
+    color: #fff;
+    width: 15%;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 10%;
+}
+.contact button:hover {
+    background-color: #45a049;
+
+}
+
+footer{
+    background-color: black;
+}
+.pieddepage{
+    padding: 10px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright{
+    padding: 20px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+.copyright p{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.parbafooter{
+    padding: 20px;
+    margin: 50px;
+    color: #fff;
+}
+.aproposfooter{
+    padding: 20px;
+    margin: 50px;
+    color: #fff;
+}
+.iconesocial{
+    margin: 50px;
+    background-color: #fff;
+    height: 95px;
+    width: 25px;
+    text-align: center;
+    border-radius: 4px;
+}
+.iconesocial i{
+    color: #015779;
+    margin: 2px;
+    font-size: 20px;
+}
+.iconesociales{
+    background-color: #fff;
+    width: 105px;
+    margin-left: 45%;
+    border-radius: 4px;
+}
+.iconesociales i{
+    color: #015779;
+    margin: 2px;
+    font-size: 20px;
+}
