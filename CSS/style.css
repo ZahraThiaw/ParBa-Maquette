@@ -40,7 +40,7 @@ nav img{
     color: #015779;
 }
 a{
-    margin: 10px;
+    margin: 5px;
     text-decoration: none;
     display:block;
     min-width: 80px;
@@ -52,20 +52,30 @@ a{
     justify-content: space-around;
 }
 .text{
-    padding: 40px;
+    padding: 80px;
+    margin: 60px;
     margin-left: 130px;
     font-size: 18px;
 }
 .text h1{
-    font-size: 50px;
+    font-size: 60px;
     color: #015779;
+}
+#gestionParbar{
+    margin-top: -60px;
+}
+#assistante{
+    margin-bottom: -60px;
+    font-size: 20px;
 }
 .image img{
     padding: 40px;
+    margin: 30px;
     margin-right: 150px;
 }
 .buttonaccueil ul{
     padding: 10px;
+    margin-top: -40px;
     display: flex;
     justify-content: center;
     align-items: center;
