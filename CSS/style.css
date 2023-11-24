@@ -1,14 +1,14 @@
 body{
     padding: 0;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #e9f7f7;
 }
 nav{
     display: flex;
     justify-content: space-between;
     background-color: #fff;
-    box-shadow: 3px 3px 3px #015779 solid;
+    box-shadow: 3px 3px 3px #015779;
 }
 nav img{
     margin-left: 10px;
@@ -52,12 +52,17 @@ a{
     justify-content: space-around;
 }
 .text{
-    padding: 20px;
-    margin-left: 4Opx;
+    padding: 40px;
+    margin-left: 130px;
+    font-size: 18px;
+}
+.text h1{
+    font-size: 50px;
+    color: #015779;
 }
 .image img{
-    padding: 20px;
-    margin-right: 40px;
+    padding: 40px;
+    margin-right: 150px;
 }
 .buttonaccueil ul{
     padding: 10px;
@@ -119,7 +124,7 @@ a{
     text-align: justify;
 }
 #partenaire{
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #e9f7f7;
@@ -153,13 +158,14 @@ a{
     text-align: center;
     font-size: 60px;
     color: #015779;
+    margin-top: 18px;
 }
 .logospartenaire img{
     padding: 10px;
     margin: 15px;
 }
 #temoignage{
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 #temoignage h1{
     text-align: center;
@@ -187,16 +193,16 @@ a{
 .testimonial img {
     max-width: 150px;
     border-radius: 50%;
-    margin-top: -90px;
+    margin-top: -95px;
 }
 .messageclient{
     text-align: justify;
 }
 #contact{
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    height: 130vh;
+    height: 150vh;
     background-color: #e9f7f7;
 }
 #contact h1{
@@ -227,7 +233,7 @@ a{
     margin-left: 10%;
 }
 .contact button{
-    background-color: #4caf50;
+    background-color: #65bd69;
     color: #fff;
     width: 15%;
     padding: 15px 15px;
@@ -237,7 +243,7 @@ a{
     margin-left: 10%;
 }
 .contact button:hover {
-    background-color: #45a049;
+    background-color: rgb(91, 163, 95);
 
 }
 
@@ -261,7 +267,7 @@ footer{
 }
 .copyright p{
     font-size: 15px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Poppins', sans-serif;
 }
 .parbafooter{
     padding: 20px;
@@ -276,7 +282,7 @@ footer{
 .iconesocial{
     margin: 50px;
     background-color: #fff;
-    height: 95px;
+    height: 100px;
     width: 25px;
     text-align: center;
     border-radius: 4px;
